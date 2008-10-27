@@ -1,17 +1,17 @@
 development:
-    username: javery 
-    password: YAnrZWh8a3y7vw9VfF8q
+    username: username 
+    password: password
     url: data.beta.mssds.com
-    authority: infozerktest110
+    authority: authority
     
 test:
-    username: javery 
-    password: YAnrZWh8a3y7vw9VfF8q
+    username: username 
+    password: password
     url: data.beta.mssds.com
-    authority: infozerktest110
+    authority: authority
     
 production:
-    username: javery 
-    password: YAnrZWh8a3y7vw9VfF8q
+    username: username 
+    password: password
     url: data.beta.mssds.com
-    authority: infozerktest110
+    authority: authority
