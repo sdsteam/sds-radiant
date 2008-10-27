@@ -1,7 +1,7 @@
 == SDS-Radiant
 
 This version of Radiant has been modified to work with the Microsoft SQL Data Services REST interface as its data store. This 
-was accomplished by writing a custom active record adapter that is shipped in the vendor folder (and will be released as a separate gem at some point). Some small changes were made to Radiant to accommodate using this adapter, but they were very small.
+was accomplished by writing a custom active record adapter that is shipped in the vendor folder. Some small changes were made to Radiant to accommodate using this adapter, but they were very small.
 
 If you are writing an application from scratch the active record adapter is not the best way to use SDS you should use the sds-rest library and the sds-activeresource adapter that comes with it.
 
