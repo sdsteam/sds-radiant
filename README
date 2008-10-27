@@ -1,3 +1,28 @@
+== SDS-Radiant
+
+This version of Radiant has been modified to work with the Microsoft SQL Data Services REST interface as its data store. This 
+was accomplished by writing a custom active record adapter that is shipped in the vendor folder (and will be released as a separate gem at some point). Some small changes were made to Radiant to accommodate using this adapter, but they were very small.
+
+If you are writing an application from scratch the active record adapter is not the best way to use SDS you should use the sds-rest library and the sds-activeresource adapter that comes with it.
+
+The active record adapter is still experimental and will not work in all active record scenarios, its has only been tested with Radiant.
+
+To get started:
+
+1. Install Ruby with the One-Click Installer - http://rubyforge.org/frs/download.php/29263/ruby186-26.exe
+2. Install Ruby Gems - http://rubyforge.org/frs/download.php/38647/rubygems-1.2.0.zip
+3. Install UUIDTools - cmd line => gem install uuidtools
+4. Install Hoe - cmd line => gem install hoe
+5. Install sds-rest - cmd line => gem install sds-rest
+6. Download the sds-tasks application and unzip it to a folder on your hard drive.
+7. Signup for a SDS account at http://www.microsoft.com/azure/default.mspx and then enter your credentials in the 
+ssds.yml file.
+8. Create an SDS authority and enter the value in the ssds.yml file.
+9. Open a command prompt and navigate to that directory and type "rake db:bootstrap"
+10. Then type "ruby script/server"
+11. Go to http://localhost:3000/ and you will see the task application up and running.
+
+
 == Welcome to Radiant
 
 Radiant is a no-fluff, open source content management system designed for
