@@ -14,7 +14,7 @@ To get started:
 3. Install UUIDTools - cmd line => gem install uuidtools
 4. Install Hoe - cmd line => gem install hoe
 5. Install sds-rest - cmd line => gem install sds-rest
-6. Download the sds-tasks application and unzip it to a folder on your hard drive.
+6. Download the sds-radiant application and unzip it to a folder on your hard drive.
 7. Signup for a SDS account at http://www.microsoft.com/azure/default.mspx and then enter your credentials in the 
 ssds.yml file.
 8. Create an SDS authority and enter the value in the ssds.yml file.
